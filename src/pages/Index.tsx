@@ -174,19 +174,19 @@ const Index: React.FC = () => {
                 {
                   title: "Skill Development",
                   description: "Access workshops, resources, and mentorship to enhance your skills in your area of interest.",
-                  icon: "💡",
+                  icon: " ",
                   delay: 1
                 },
                 {
                   title: "Networking",
                   description: "Connect with like-minded individuals, alumni, and industry professionals.",
-                  icon: "🔗",
+                  icon: " ",
                   delay: 2
                 },
                 {
                   title: "Events & Competitions",
                   description: "Participate in exciting events, hackathons, and competitions throughout the year.",
-                  icon: "🏆",
+                  icon: " ",
                   delay: 3
                 }
               ].map((feature, index) => (
@@ -228,7 +228,7 @@ const Index: React.FC = () => {
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               Share Your Thoughts & Reviews 💭
-              Your voice matters! Tell us about your experience, share your ideas, and help us grow together. 🚀💡
+              Your voice matters! Tell us about your experience, share your ideas, and help us grow together.
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
