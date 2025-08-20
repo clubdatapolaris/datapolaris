@@ -134,7 +134,7 @@ const Gallery: React.FC = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
               >
-                Explore moments from our events, activities, and gatherings.
+                Explore moments from our events and activities.
               </motion.p>
             </div>
           </div>
