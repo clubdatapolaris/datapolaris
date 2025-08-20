@@ -31,6 +31,11 @@ const categoriesWithImages = {
     '/images/skillsprint/DSC05922.JPG',
     '/images/skillsprint/DSC05925.JPG',
     '/images/skillsprint/DSC06009.JPG',
+    '/images/skillsprint/DSC05801.JPG',
+    '/images/skillsprint/DSC05814.JPG',
+    'images/skillsprint/DSC05863.JPG',
+    'images/skillsprint/DSC05887.JPG',
+    'images/skillsprint/DSC05894.JPG'
   ],
   'Brain Heist': [
     '/images/brain_heist/brain_heist1.jpg',

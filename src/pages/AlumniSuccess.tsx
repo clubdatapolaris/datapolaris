@@ -40,7 +40,7 @@ const AlumniSuccess: React.FC = () => {
       {
         name: "Vishal Bhalkar",
         image: "Alumni-images/vishal.jpg",
-        head: "Formal Head",
+        head: "Formar Head",
         company: "Celebal Technologies",
         
       },
@@ -66,7 +66,7 @@ const AlumniSuccess: React.FC = () => {
       {
         name: "Khushal Jain",
         image: "Alumni-images/kushal jain.jpeg",
-        company: "Intern at HiDevs",
+        company: "HiDevs",
         
       },
       {
@@ -75,17 +75,29 @@ const AlumniSuccess: React.FC = () => {
         company: "Tech Mahindra, Numetry Technology Pune",
         
       },
+      {
+        name: "Mayur Patil",
+        image: "Alumni-images/mayur patil.jpeg",
+        company: "Lear Corporation",
+        
+      },
     
       {
         name: "Bhupesh Chaudhari ",
         image: "Alumni-images/Bhupesh - Bhupesh Chaudhari.jpg",
-        company: "Intern at Mansavi Tech Solutions Pvt. Ltd.",
+        company: "SAP ABAP Developer at SVKM Central Office",
         
       },
       {
         name: "Nikita Saindane",
         image: "Alumni-images/Nikita Sudhir saindane.jpg",
         company: "Tech Mahindra",
+        
+      },
+      {
+        name: "Sunny Bari",
+        image: "Alumni-images/sunny bari.jpeg",
+        company: "QualityKiosk",
         
       },
       ,
@@ -166,6 +178,11 @@ const AlumniSuccess: React.FC = () => {
                         {alumni.name === "Dhanashri Saner" && (
                           <p className="text-orange-400 text-sm text-center font-bold">
                             Co-founder
+                          </p>
+                        )}
+                        {alumni.name === "Vishal Bhalkar" && (
+                          <p className="text-orange-400 text-sm text-center font-bold">
+                            Former Head of Club
                           </p>
                         )}
                       </div>
