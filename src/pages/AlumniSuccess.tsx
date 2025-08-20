@@ -51,6 +51,12 @@ const AlumniSuccess: React.FC = () => {
         
       },
       {
+        name: "Om Bhagwat",
+        image: "Alumni-images/om bhagwat.jpeg",
+        company: "PatSeer",
+        
+      },
+      {
         name: "Uday Bhartiya",
         image: "Alumni-images/uday.png",
         company: "Tech Mahindra",
