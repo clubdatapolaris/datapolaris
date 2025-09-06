@@ -47,7 +47,7 @@ const AlumniSuccess: React.FC = () => {
       {
         name: "Tejas Chaudhari",
         image: "Alumni-images/Tejas Chaudhari.jpg",
-        company: "Webtech Depelopers",
+        company: "Webtech Developers",
         
       },
       {
@@ -221,5 +221,6 @@ const AlumniSuccess: React.FC = () => {
     </PageTransition>
   );
 };
+
 
 export default AlumniSuccess;
