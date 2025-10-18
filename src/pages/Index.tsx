@@ -174,19 +174,18 @@ const Index: React.FC = () => {
         </section>
 
         {/* Features Section */}
-        <section className="relative z-20 py-20 bg-black/30 backdrop-blur-md">
+        <section className="relative z-20 py-24 bg-black">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-display">
+            <div className="text-center mb-20">
+              <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 font-display">
                 What We <span className="text-orange-500">Offer</span>
               </h2>
-              <p className="text-lg text-white/70 max-w-2xl mx-auto">
-                Join us to explore a world of opportunities, experiences, and
-                connections.
+              <p className="text-lg text-white/70 max-w-2xl mx-auto leading-relaxed">
+                Join us to explore a world of opportunities, experiences, and connections.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
               {[
                 {
                   title: "Skill Development",
@@ -209,21 +208,37 @@ const Index: React.FC = () => {
               ].map((feature, index) => (
                 <motion.div
                   key={index}
-                  className="glass-card rounded-2xl p-8 bg-white/10 backdrop-blur-md border border-white/20 shadow-lg hover:shadow-xl transition-all duration-500 hover:scale-105"
+                  className="relative rounded-2xl p-8 bg-gradient-to-br from-neutral-900 via-black to-neutral-950 
+                     border border-neutral-800 shadow-[0_8px_20px_rgba(0,0,0,0.6)] 
+                     hover:shadow-[0_12px_30px_rgba(255,115,0,0.1)] 
+                     hover:border-orange-700/40 
+                     transition-all duration-500 hover:-translate-y-2"
                   initial={{ opacity: 0, y: 40 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  transition={{ duration: 0.7, delay: feature.delay * 0.3, ease: "easeOut" }}
+                  transition={{
+                    duration: 0.7,
+                    delay: feature.delay * 0.3,
+                    ease: "easeOut",
+                  }}
                 >
-                  <h3 className="text-xl font-semibold text-white mb-3">
+                  {/* Optional texture overlay */}
+                  <div className="absolute inset-0 opacity-[0.07] bg-[url('https://www.transparenttextures.com/patterns/rocky-wall.png')] bg-repeat rounded-2xl pointer-events-none"></div>
+
+                  <h3 className="text-2xl font-semibold text-white mb-3 relative z-10">
                     {feature.title}
                   </h3>
-                  <p className="text-white/70">{feature.description}</p>
+                  <p className="text-white/70 leading-relaxed relative z-10">
+                    {feature.description}
+                  </p>
+
+                  <div className="mt-4 h-[1px] w-16 bg-orange-600/80 rounded-full"></div>
                 </motion.div>
               ))}
             </div>
           </div>
         </section>
+
       </main>
     </PageTransition>
   );

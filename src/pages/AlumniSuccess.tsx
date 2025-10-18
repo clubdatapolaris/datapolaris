@@ -23,6 +23,12 @@ const AlumniSuccess: React.FC = () => {
         company: "Midoffice Data",
       },
       {
+        name: "Nikita Girase",
+        image: "Alumni-images/nikita girase.jpg",
+        company: "NVIDIA",
+        
+      },
+      {
         name: "Vedant Thakur",
         image: "Alumni-images/Vedant thakur.jpg",
         company: "Pursuing Higher Education, Nottingham Trent University, UK",
@@ -42,6 +48,13 @@ const AlumniSuccess: React.FC = () => {
         image: "Alumni-images/vishal.jpg",
         head: "Formar Head",
         company: "Celebal Technologies",
+        
+      },
+      {
+        name: "Harshita Patil",
+        image: "Alumni-images/harshita.jpg",
+        head: "Formar Co-Head",
+        company: "Wipro Limited",
         
       },
       {
@@ -108,6 +121,20 @@ const AlumniSuccess: React.FC = () => {
       },
       ,
     ],
+    2026:[
+       {
+        name: "Sakshi Bari",
+        image: "Alumni-images/Sakshi_Bari.jpeg",
+        company: "Stoic & Salamander Global Corporation",
+        
+      },
+       {
+        name: "Jagruti Desale",
+        image: "Alumni-images/jagruti desale.jpg",
+        company: "Fristine Infotech Pvt. Ltd.",
+        
+      },
+    ]
   };
 
   return (
@@ -189,6 +216,11 @@ const AlumniSuccess: React.FC = () => {
                         {alumni.name === "Vishal Bhalkar" && (
                           <p className="text-orange-400 text-sm text-center font-bold">
                             Former Head of Club
+                          </p>
+                        )}
+                        {alumni.name === "Harshita Patil" && (
+                          <p className="text-orange-400 text-sm text-center font-bold">
+                            Former Co-Head of Club
                           </p>
                         )}
                       </div>
