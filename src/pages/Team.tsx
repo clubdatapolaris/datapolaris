@@ -65,7 +65,7 @@ const Team: React.FC = () => {
     
     {
       name: "Rohit Bhalkar",
-      role: "TY-COMP",
+      role: "",
       image: "/images/team images/Rohit Bhalkar.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/rohit-bhalkar-ab4a882b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
