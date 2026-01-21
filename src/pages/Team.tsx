@@ -141,7 +141,7 @@ const Team: React.FC = () => {
       name: "Ashna Pinjari",
       role: "",
       image: "/images/team images/Ashna Pinjari..jpg",
-      github: "https://github.com",
+      github: "https://github.com/ashhgit45",
       linkedin: "https://www.linkedin.com/in/ashna-pinjari-b067942a0",
    
     },
@@ -235,7 +235,126 @@ const Team: React.FC = () => {
       github: "https://github.com/BeingBhavya",
       linkedin: "https://www.linkedin.com/in/bhavya-chauhan-50b98133a/",
     },
-    
+     {
+      name: "Paragi Patil",
+      role: "",
+      image: "/images/team images/Paragi Patil.jpg",
+      github: "https://github.com/paragi2005",
+      linkedin: "https://www.linkedin.com/in/paragi-patil-aab83b2bb",
+   
+    },
+    {
+      name: "Pushpraj Patil",
+      role: "",
+      image: "/images/team images/Pushpraj Patil.png",
+      github: "https://github.com/pushpraj135/pushpa",
+      linkedin: "http://www.linkedin.com/in/pushpraj-patil-8631a528a",
+   
+    },
+     {
+      name: "Vedant Badgujar",
+      role: "",
+      image: "/images/team images/Vedant Badgujar.jpg",
+      github: "https://github.com/satorucommit",
+      linkedin: "https://in.linkedin.com/in/vedant-badgujar-a546bb298",
+   
+    },
+    {
+      name: "Amar Lajge",
+      role: "",
+      image: "/images/team images/Amar Lajge.jpg",
+      github: "https://github.com/Alajge18",
+      linkedin: "https://www.linkedin.com/in/amar-lajge-504ba432a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+   
+    },
+    {
+      name: "Aadesh Khairnar",
+      role: "",
+      image: "/images/team images/Aadesh Khairnar.jpg",
+      github: "https://github.com/khairnaraadesh1-droid",
+      linkedin: "https://www.linkedin.com/in/aadesh-khairnar-1392a832a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+   
+    },
+     {
+      name: "Sakshi Shimpi",
+      role: "",
+      image: "/images/team images/Sakshi Shimpi.jpg",
+      github: "https://github.com/sakshishimpi11",
+      linkedin: "https://www.linkedin.com/in/sakshi-shimpi-422318338/",
+   
+    },
+    {
+      name: "Devansh Chaudhari",
+      role: "",
+      image: "/images/team images/Devansh Chaudhari.jpg",
+      github: "https://github.com/devansh13-tech",
+      linkedin: "https://www.linkedin.com/in/devansh-chaudhari-33a360247",
+   
+    },
+     {
+      name: "Pranav Chaudhari",
+      role: "",
+      image: "/images/team images/Pranav Chaudhari.jpg",
+      github: "https://github.com/Pranav-Chaudhari07",
+      linkedin: "https://www.linkedin.com/in/pranav-chaudhari-78203a298=android_app",
+   
+    },
+    {
+      name: "Amey Sangpal",
+      role: "",
+      image: "/images/team images/Amey Sangpal.jpg",
+      github: "https://github.com/ameysangpal110",
+      linkedin: "https://www.linkedin.com/in/amey-sangpal-53b102325/",
+   
+    },
+    {
+      name: "Tejas Zalte",
+      role: "",
+      image: "/images/team images/TEJAS ZALTE.jpg",
+      github: "https://github.com/TejasZalte",
+      linkedin: "https://www.linkedin.com/in/tejas-zalte-9a7b8b32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+   
+    },
+     {
+      name: "Sanket Patil",
+      role: "",
+      image: "/images/team images/Sanket Patil.jpg",
+      github: "https://github.com/sankettpatill",
+      linkedin: "https://linkedin.com/in/sanket-patil-231b69334",
+   
+    },
+    {
+      name: "Mohit  Patil",
+      role: "",
+      image: "/images/team images/Mohit  Patil.jpeg",
+      github: "https://github.com/Mohitpatil712",
+      linkedin: "https://www.linkedin.com/in/mohit-patil-4b191b358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+   
+    },
+     {
+      name: "Chaitali Borse",
+      role: "",
+      image: "/images/team images/Chaitali Borse.jpg",
+      github: "https://github.com",
+      linkedin: "https://www.linkedin.com/in/chaitali-borse-4b3877330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+   
+    },
+    {
+      name: "Rutuja Deshmukh",
+      role: "",
+      image: "/images/team images/Rutuja Deshmukh.jpg",
+      github: "https://github.com/RutujaDeshmukh427",
+      linkedin: "https://www.linkedin.com/in/rutuja-deshmukh-59a351327",
+   
+    },
+    {
+      name: "Pushpak Mali",
+      role: "",
+      image: "/images/team images/Pushpak Mali.jpg",
+      github: "https://github.com/pushpakmali-21",
+      linkedin: "https://www.linkedin.com/in/pushpak-mali-b51b11336",
+   
+    }, 
   ];
 
   return (
