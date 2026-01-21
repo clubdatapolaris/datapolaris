@@ -249,7 +249,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Pushpraj Patil.png",
       github: "https://github.com/pushpraj135/pushpa",
       linkedin: "http://www.linkedin.com/in/pushpraj-patil-8631a528a",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
      {
       name: "Vedant Badgujar",
@@ -273,7 +273,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Aadesh Khairnar.jpg",
       github: "https://github.com/khairnaraadesh1-droid",
       linkedin: "https://www.linkedin.com/in/aadesh-khairnar-1392a832a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
      {
       name: "Sakshi Shimpi",
@@ -281,7 +281,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Sakshi Shimpi.jpg",
       github: "https://github.com/sakshishimpi11",
       linkedin: "https://www.linkedin.com/in/sakshi-shimpi-422318338/",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
     {
       name: "Devansh Chaudhari",
@@ -289,7 +289,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Devansh Chaudhari.jpg",
       github: "https://github.com/devansh13-tech",
       linkedin: "https://www.linkedin.com/in/devansh-chaudhari-33a360247",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
      {
       name: "Pranav Chaudhari",
@@ -297,7 +297,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Pranav Chaudhari.jpg",
       github: "https://github.com/Pranav-Chaudhari07",
       linkedin: "https://www.linkedin.com/in/pranav-chaudhari-78203a298=android_app",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
     {
       name: "Amey Sangpal",
@@ -326,7 +326,7 @@ const Team: React.FC = () => {
     {
       name: "Mohit  Patil",
       role: "",
-      image: "/images/team images/Mohit  Patil.jpeg",
+      image: "/images/team images/Mohit Patil.jpeg",
       github: "https://github.com/Mohitpatil712",
       linkedin: "https://www.linkedin.com/in/mohit-patil-4b191b358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
    
@@ -334,7 +334,7 @@ const Team: React.FC = () => {
      {
       name: "Chaitali Borse",
       role: "",
-      image: "/images/team images/Chaitali Borse.jpg",
+      image: "/images/team images/Chaitali borse.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/chaitali-borse-4b3877330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
    
@@ -345,7 +345,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Rutuja Deshmukh.jpg",
       github: "https://github.com/RutujaDeshmukh427",
       linkedin: "https://www.linkedin.com/in/rutuja-deshmukh-59a351327",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
     {
       name: "Pushpak Mali",
