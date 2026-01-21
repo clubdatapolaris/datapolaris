@@ -337,7 +337,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Chaitali borse.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/chaitali-borse-4b3877330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-   
+      imageStyle: { objectPosition: 'center -5px' }  
     },
     {
       name: "Rutuja Deshmukh",
