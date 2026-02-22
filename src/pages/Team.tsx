@@ -34,7 +34,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Nilesh Patil.jpg",
       github: "https://github.com/NileshPatil24-a",
       linkedin: "www.linkedin.com/in/nilesh-patil-a3818b329",
-   
+      imageStyle: { objectPosition: 'center 5px' } 
     },
     {
       name: "Ashna Pinjari",
@@ -81,7 +81,7 @@ const Team: React.FC = () => {
     {
       name: "Disha Nikumbh",
       role: "",
-      image: "/images/team images/Disha Nikumbh.jpg",
+      image: "/images/team images/Disha Nikum.jpg",
       github: "https://github.com/dishanikumbh06",
       linkedin: "https://www.linkedin.com/in/disha-rajendra-nikumbh-9873bb290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   
@@ -105,7 +105,7 @@ const Team: React.FC = () => {
     {
       name: "Bhavya Chauhan",
       role: "",
-      image: "/images/team images/Bhavya Chawhan.jpg",
+      image: "/images/team images/Bhavya Chauhan.jpg",
       github: "https://github.com/BeingBhavya",
       linkedin: "https://www.linkedin.com/in/bhavya-chauhan-50b98133a/",
     },
@@ -115,7 +115,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Paragi Patil.jpg",
       github: "https://github.com/paragi2005",
       linkedin: "https://www.linkedin.com/in/paragi-patil-aab83b2bb",
-       imageStyle: { objectPosition: 'center -10px' } 
+       imageStyle: { objectPosition: 'center -20px' } 
     },
     {
       name: "Pushpraj Patil",
