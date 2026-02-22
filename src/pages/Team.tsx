@@ -22,7 +22,8 @@ const Team: React.FC = () => {
       image: "/images/team images/Sayali Jadhav.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/sayali-jadhav-b4263827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
+      imageStyle: {object-fit: cover;
+        objectPosition: 'center -20px' }  
     },
   ];
 
@@ -34,7 +35,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Nilesh Patil.jpg",
       github: "https://github.com/NileshPatil24-a",
       linkedin: "www.linkedin.com/in/nilesh-patil-a3818b329",
-      imageStyle: { objectPosition: 'center 4px' } 
+      imageStyle: { objectPosition: 'center 3px' } 
     },
     {
       name: "Ashna Pinjari",
