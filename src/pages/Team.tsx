@@ -7,140 +7,39 @@ import Card from "../components/ui/card";
 const Team: React.FC = () => {
   const coreTeam = [
     {
-      name: "Kalesh Patil",
+      name: "Sudarshan Bhosale",
       role: "Head",
-      branch: "",
-      image: "/images/team images/kalesh.jpg",
-      github: "https://github.com/kalesh-94",
-      linkedin: "https://www.linkedin.com/in/kalesh-patil-232873292/",
+      branch:"",
+      image: "/images/team images/Sudarshan Bhosale.jpg",
+      github: "https://github.com/Sidz77",
+      linkedin: "https://www.linkedin.com/in/sudarshan-bhosale-2356a428a/",
+      imageStyle: { objectPosition: 'center 0px' } 
     },
     {
-      name: "Sarthak Patil",
+      name: "Sayali Jadhav",
       role: "Co-Head",
       branch:"",
-      image: "/images/team images/Sarthak.jpg",
-      github: "https://github.com/realsarthak",
-      linkedin: "https://www.linkedin.com/in/sarthak909",
+      image: "/images/team images/Sayali Jadhav.jpg",
+      github: "https://github.com",
+      linkedin: "https://www.linkedin.com/in/sayali-jadhav-b4263827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+
     },
   ];
 
   const teamMembers = [
-    
-   {
-      name: "Jagruti Desale",
-      role: "",
-      image: "/images/team images/IMG-20250404-WA0009.jpg",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/jagruti-desale-jd04/",
-      
-    },
-    {
-      name: "Sakshi Bari",
-      role: "",
-      image: "/images/team images/Sakshi_Bari - Sakshi Bari.jpeg",
-      github: "https://github.com/Sakshi04bari",
-      linkedin: "https://linkedin.com/in/sakshi-bari",
-      
-    },
-    ,
-    
   
-    ,
-    {
-      name: "Akash Shinde",
-      role: "",
-      image: "/images/team images/Akash Shinde.jpg",
-      github: "https://github.com/akascaptain",
-      linkedin: "https://www.linkedin.com/in/akash-shinde-2692b9258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
-    },
-    {
-      name: "Rashmi Borase",
-      role: "",
-      image: "/images/team images/IMG20241210184223 - Rashmi Borse.jpg",
-      github: "https://github.com/Rashmiborse10",
-      linkedin: "https://www.linkedin.com/in/rashmi-borse-0461b025b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-     
-    },
-    
-    {
-      name: "Rohit Bhalkar",
-      role: "",
-      image: "/images/team images/Rohit Bhalkar.jpg",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/rohit-bhalkar-ab4a882b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      
-    },
-    {
-      name: "Mitesh Chudhari",
-      role: "",
-      image: "/images/team images/MITS - Kunal Chaudhari05.jpg",
-      github: "https://github.com/MiteshChaudhari18",
-      linkedin: "https://www.linkedin.com/in/mitesh-chaudhari-201b57288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      
-    },
-    
-    {
-      name: "Rituja Dhangar",
-      role: "",
-      image: "/images/team images/Rituja Dhangar.jpg",
-      github: "https://github.com/RitujaDhangar",
-      linkedin: "www.linkedin.com/in/ rituja-dhangar-696736278",
-      
-    },
-    
-    {
-      name: "Yogesh Girase",
-      role: "",
-      image: "/images/team images/yogesh girase.jpg",
-      github: "https://github.com/GiraseYogesh",
-      linkedin: "https://www.linkedin.com/in/yogesh-girase",
-     
-    },
-    {
-      name: "Nayan Patil",
-      role: "",
-      image: "/images/team images/img_nyn - Nayan Patil.jpeg",
-      github: "https://github.com/Nayan1809",
-      linkedin: "www.linkedin.com/in/nayanpatil09",
-
-    },
-    {
-      name: "Krishna Vispute",
-      role: "",
-      image: "/images/team images/IMG_20241024_120855 - Krishna Vispute.jpg",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/krishna-vispute-484555257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
-    },
-    {
-      name: "Vaishnavi Borase",
-      role: "",
-      image: "/images/team images/vaishnavi_manag.jpg",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/vaishnavi-borase-0ba971259/",
-    
-    },
     {
       name: "Nilesh Patil",
       role: "",
-      image: "/images/team images/160408401 - Nilesh Patil.jpg",
+      image: "/images/team images/Nilesh Patil.jpg",
       github: "https://github.com/NileshPatil24-a",
       linkedin: "www.linkedin.com/in/nilesh-patil-a3818b329",
    
     },
     {
-      name: "Sayali Jadhav",
-      role: "",
-      image: "/images/team images/IMG-20250327-WA0003 - Sayali Jadhav.jpg",
-      github: "https://github.com",
-      linkedin: "https://www.linkedin.com/in/sayali-jadhav-b4263827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-
-    },
-    {
       name: "Ashna Pinjari",
       role: "",
-      image: "/images/team images/Ashna Pinjari..jpg",
+      image: "/images/team images/Ashna Pinjari.jpg",
       github: "https://github.com/ashhgit45",
       linkedin: "https://www.linkedin.com/in/ashna-pinjari-b067942a0",
    
@@ -156,18 +55,10 @@ const Team: React.FC = () => {
     {
       name: "Paresh Mahirrao",
       role: "",
-      image: "/images/team images/paresh_manage.jpg",
+      image: "/images/team images/Paresh Mahirrao.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/paresh-mahirrao-389825250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       
-    },
-    {
-      name: "Nomesh Kirange",
-      role: "",
-      image: "/images/team images/1723968168657.jpg",
-      github: "https://github.com/NomeshKirange",
-      linkedin: "https://www.linkedin.com/in/nomesh-kirange-2012a5258",
-    
     },
     {
       name: "Tanisha Badgujar",
@@ -178,18 +69,9 @@ const Team: React.FC = () => {
   
     },
     {
-      name: "Lokesh Chaudhari",
-      role: "",
-      image: "/images/team images/IMG_20241002_130116 - Lokkesh Chaudhari.jpg",
-      github: "https://github.com/https://github.com/Lokesh-Squazzo",
-      linkedin: "https://linkedin.https://www.linkedin.com/in/lokesh-chaudhari-917778280//in/emilywhite",
-    
-      imageStyle: { objectPosition: 'center 0px' } 
-    },
-    {
       name: "Digvijaysing Rajput",
       role: "",
-      image: "/images/team images/Digvijaysing Rajput.JPG",
+      image: "/images/team images/Digvijaysing Rajput.jpg",
       github: "https://github.com/digvijay1129",
       linkedin: "https://www.linkedin.com/in/digvijaysing-rajput-287b46351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
@@ -199,7 +81,7 @@ const Team: React.FC = () => {
     {
       name: "Disha Nikumbh",
       role: "",
-      image: "/images/team images/IMG_20241021_164813 - Disha Nikumbh.jpg",
+      image: "/images/team images/Disha Nikumbh.jpg",
       github: "https://github.com/dishanikumbh06",
       linkedin: "https://www.linkedin.com/in/disha-rajendra-nikumbh-9873bb290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   
@@ -207,31 +89,23 @@ const Team: React.FC = () => {
     {
       name: "Pranav Sutar",
       role: "",
-      image: "/images/team images/pranav sutar.jpeg",
+      image: "/images/team images/Pranav Sutar.jpg",
       github: "https://github.com/pranav1217",
       linkedin: "https://www.linkedin.com/in/pranav-sutar-0358642b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
     },
-    
-    {
-      name: "Sudarshan Bhosale",
-      role: "",
-      image: "/images/team images/Sudarshan Bhosale.jpg",
-      github: "https://github.com/Sidz77",
-      linkedin: "https://www.linkedin.com/in/sudarshan-bhosale-2356a428a/",
-      imageStyle: { objectPosition: 'center 0px' } 
-    },
+  
     {
       name: "Parag Nikum",
       role: "",
-      image: "/images/team images/IMG_20250318_144114 - Parag Nikum.jpg",
+      image: "/images/team images/Parag Nikum.jpg",
       github: "https://github.com/Parag-Nikum",
       linkedin: "https://www.linkedin.com/in/parag-nikum-a371aa294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
       name: "Bhavya Chauhan",
       role: "",
-      image: "/images/team images/bhavya_chawhan.jpg",
+      image: "/images/team images/Bhavya Chawhan.jpg",
       github: "https://github.com/BeingBhavya",
       linkedin: "https://www.linkedin.com/in/bhavya-chauhan-50b98133a/",
     },
@@ -241,12 +115,12 @@ const Team: React.FC = () => {
       image: "/images/team images/Paragi Patil.jpg",
       github: "https://github.com/paragi2005",
       linkedin: "https://www.linkedin.com/in/paragi-patil-aab83b2bb",
-   
+       imageStyle: { objectPosition: 'center -10px' } 
     },
     {
       name: "Pushpraj Patil",
       role: "",
-      image: "/images/team images/Pushpraj Patil.png",
+      image: "/images/team images/Pushpraj Patil.jpg",
       github: "https://github.com/pushpraj135/pushpa",
       linkedin: "http://www.linkedin.com/in/pushpraj-patil-8631a528a",
       imageStyle: { objectPosition: 'center -5px' }  
@@ -310,7 +184,7 @@ const Team: React.FC = () => {
     {
       name: "Tejas Zalte",
       role: "",
-      image: "/images/team images/TEJAS ZALTE.jpg",
+      image: "/images/team images/Tejas Zalte.jpg",
       github: "https://github.com/TejasZalte",
       linkedin: "https://www.linkedin.com/in/tejas-zalte-9a7b8b32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
    
@@ -353,6 +227,22 @@ const Team: React.FC = () => {
       image: "/images/team images/Pushpak Mali.jpg",
       github: "https://github.com/pushpakmali-21",
       linkedin: "https://www.linkedin.com/in/pushpak-mali-b51b11336",
+   
+    }, 
+     {
+      name: "Om Patil",
+      role: "",
+      image: "/images/team images/Om Patil.jpg",
+      github: "https://github.com/omdipakpatil7",
+      linkedin: "https://www.linkedin.com/in/om-pawar=05428330",
+      imageStyle: { objectPosition: 'center -5px' }  
+    },
+    {
+      name: "Yashpal Girase",
+      role: "",
+      image: "/images/team images/Yashpal Girase.jpg",
+      github: "https://github.com/yashpalgirase122",
+      linkedin: "https://www.linkedin.com/in/yashpal-girase-639b4332b",
    
     }, 
   ];
