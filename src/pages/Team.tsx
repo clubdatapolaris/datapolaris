@@ -23,9 +23,7 @@ const Team: React.FC = () => {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/sayali-jadhav-b4263827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       imageStyle: {objectfit: 'cover',
-        objectPosition: 'center -60px',
-        width: '160px',
-        height: '150px'
+        objectPosition: 'center -2px',
         }  
     },
   ];
@@ -54,7 +52,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Riya Deshmukh.jpg",
       github: "https://github.com/Rhea-droid",
       linkedin: "https://www.linkedin.com/in/riya-deshmukh-557b182b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-       objectPosition: 'center -40px',
+      imageStyle:{ objectPosition: 'center -50px'},
       
     },
     {
@@ -63,8 +61,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Paresh Mahirrao.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/paresh-mahirrao-389825250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      
-      imageStyle: { objectPosition: 'center -40px',
+      imageStyle: { objectPosition: 'center -2px'},
        
     },
     {
@@ -82,7 +79,7 @@ const Team: React.FC = () => {
       github: "https://github.com/digvijay1129",
       linkedin: "https://www.linkedin.com/in/digvijaysing-rajput-287b46351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
 
-      imageStyle: {  objectPosition: 'center -30px',
+      imageStyle: {  objectPosition: 'center -55px'},
         
     },
     
@@ -101,7 +98,7 @@ const Team: React.FC = () => {
       github: "https://github.com/pranav1217",
       linkedin: "https://www.linkedin.com/in/pranav-sutar-0358642b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       
-      imageStyle: {    objectPosition: 'center -40px',
+      imageStyle: {    objectPosition: 'center -53px'},
 
     },
   
@@ -125,7 +122,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Paragi Patil.jpg",
       github: "https://github.com/paragi2005",
       linkedin: "https://www.linkedin.com/in/paragi-patil-aab83b2bb",
-       imageStyle: { objectPosition: 'center -40px',
+       imageStyle: { objectPosition: 'center -55px'},
       
     },
     {
@@ -134,7 +131,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Pushpraj Patil.jpg",
       github: "https://github.com/pushpraj135/pushpa",
       linkedin: "http://www.linkedin.com/in/pushpraj-patil-8631a528a",
-      imageStyle: {  objectPosition: 'center -20px',
+      imageStyle: {  objectPosition: 'center -50px'},
       
     },
      {
@@ -144,7 +141,7 @@ const Team: React.FC = () => {
       github: "https://github.com/satorucommit",
       linkedin: "https://in.linkedin.com/in/vedant-badgujar-a546bb298",
      imageStyle: {  objectFit: 'cover',
-                  objectPosition: 'center -30px' }  
+                  objectPosition: 'center -55px' }  
     },
     {
       name: "Amar Lajge",
@@ -153,7 +150,7 @@ const Team: React.FC = () => {
       github: "https://github.com/Alajge18",
       linkedin: "https://www.linkedin.com/in/amar-lajge-504ba432a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
    imageStyle: {  objectFit: 'cover',
-                  objectPosition: 'center -10px' }  
+                  objectPosition: 'center -40px' }  
     
     },
     {
@@ -162,7 +159,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Aadesh Khairnar.jpg",
       github: "https://github.com/khairnaraadesh1-droid",
       linkedin: "https://www.linkedin.com/in/aadesh-khairnar-1392a832a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      imageStyle: {   objectPosition: 'center -10px',
+      imageStyle: {   objectPosition: 'center 0px'},
        
     },
      {
@@ -171,7 +168,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Sakshi Shimpi.jpg",
       github: "https://github.com/sakshishimpi11",
       linkedin: "https://www.linkedin.com/in/sakshi-shimpi-422318338/",
-      imageStyle: {   objectPosition: 'center -40px',
+      imageStyle: {   objectPosition: 'center -55px'},
        
     },
     {
@@ -180,7 +177,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Devansh Chaudhari.jpg",
       github: "https://github.com/devansh13-tech",
       linkedin: "https://www.linkedin.com/in/devansh-chaudhari-33a360247",
-      imageStyle: {    objectPosition: 'center -10px',
+      imageStyle: {    objectPosition: 'center -45px'},
     
     },
      {
@@ -189,7 +186,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Pranav Chaudhari.jpg",
       github: "https://github.com/Pranav-Chaudhari07",
       linkedin: "https://www.linkedin.com/in/pranav-chaudhari-78203a298=android_app",
-      imageStyle: {  objectPosition: 'center -10px',
+      imageStyle: {  objectPosition: 'center -45px'},
       
     },
     {
@@ -198,7 +195,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Amey Sangpal.jpg",
       github: "https://github.com/ameysangpal110",
       linkedin: "https://www.linkedin.com/in/amey-sangpal-53b102325/",
-      imageStyle: {   objectPosition: 'center -40px',
+      imageStyle: {   objectPosition: 'center -53px'},
        
     },
     {
@@ -207,7 +204,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Tejas Zalte.jpg",
       github: "https://github.com/TejasZalte",
       linkedin: "https://www.linkedin.com/in/tejas-zalte-9a7b8b32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-     imageStyle: {  objectPosition: 'center -40px',
+     imageStyle: {  objectPosition: 'center -53px'},
       
     },
      {
@@ -216,7 +213,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Sanket Patil.jpg",
       github: "https://github.com/sankettpatill",
       linkedin: "https://linkedin.com/in/sanket-patil-231b69334",
-        imageStyle: {   objectPosition: 'center -40px',
+        imageStyle: {   objectPosition: 'center -45px'},
      
     },
     {
@@ -226,8 +223,7 @@ const Team: React.FC = () => {
       github: "https://github.com/Mohitpatil712",
       linkedin: "https://www.linkedin.com/in/mohit-patil-4b191b358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
    imageStyle: {  objectFit: 'cover',
-                  objectPosition: 'center -10px' }  
-    },
+                  objectPosition: 'center -35px' }  
     },
      {
       name: "Chaitali Borse",
@@ -235,7 +231,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Chaitali Borse.jpg",
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/chaitali-borse-4b3877330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      imageStyle: {  objectPosition: 'center -40px',
+      imageStyle: {  objectPosition: 'center -55px'},
    
     },
     {
@@ -244,7 +240,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Rutuja Deshmukh.jpg",
       github: "https://github.com/RutujaDeshmukh427",
       linkedin: "https://www.linkedin.com/in/rutuja-deshmukh-59a351327",
-      imageStyle: {  objectPosition: 'center -40px',
+      imageStyle: {  objectPosition: 'center -54px'},
      
     },
     {
@@ -253,7 +249,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Pushpak Mali.jpg",
       github: "https://github.com/pushpakmali-21",
       linkedin: "https://www.linkedin.com/in/pushpak-mali-b51b11336",
-          imageStyle: {  objectPosition: 'center -40px',
+          imageStyle: {  objectPosition: 'center -48px'},
        
     },
      {
@@ -262,7 +258,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Om Patil.jpg",
       github: "https://github.com/omdipakpatil7",
       linkedin: "https://www.linkedin.com/in/om-pawar=05428330",
-      imageStyle: {   objectPosition: 'center -30px',
+      imageStyle: {   objectPosition: 'center -48px'},
       
     },
     {
@@ -271,7 +267,7 @@ const Team: React.FC = () => {
       image: "/images/team images/Yashpal Girase.jpg",
       github: "https://github.com/yashpalgirase122",
       linkedin: "https://www.linkedin.com/in/yashpal-girase-639b4332b",
-        imageStyle: { objectPosition: 'center -40px',
+        imageStyle: { objectPosition: 'center -53px'},
        
     },
   ];
