@@ -23,8 +23,8 @@ const Team: React.FC = () => {
       github: "https://github.com",
       linkedin: "https://www.linkedin.com/in/sayali-jadhav-b4263827b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       imageStyle: {objectfit: 'cover',
-        objectPosition: 'center 0px',
-        width: '100px',
+        objectPosition: 'center -50px',
+        width: '150px',
         height: '150px'
         }  
     },
